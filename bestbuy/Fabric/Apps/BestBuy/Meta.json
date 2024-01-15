@@ -1,0 +1,11 @@
+{
+  "subType" : "customapp",
+  "description" : "BestBuy",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "Products",
+    "version" : "1.0",
+    "etag" : "39e405ac-50c6-48bb-95b2-4b53b5ab0a63"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

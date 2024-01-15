@@ -1,0 +1,29 @@
+{
+    "AS_Segment_f8b5f3362c7a438889672d1a94e5151f": {
+        "id": "AS_Segment_f8b5f3362c7a438889672d1a94e5151f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onRowClick_fb62c2c165564b3a957af7276c686572",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmProduct",
+            "formKUID": "i004e333eb964b64b7e68c801e546783",
+            "projectName": "bestbuy",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }]
+    }
+}

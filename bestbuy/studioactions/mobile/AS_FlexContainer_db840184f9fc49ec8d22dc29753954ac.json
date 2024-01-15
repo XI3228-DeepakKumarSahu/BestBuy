@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_db840184f9fc49ec8d22dc29753954ac": {
+        "id": "AS_FlexContainer_db840184f9fc49ec8d22dc29753954ac",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmProduct",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i004e333eb964b64b7e68c801e546783"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_j7e1560623a74d719a81e27808983235",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxReadMore.isVisible=false;",
+            "parentId": null
+        }]
+    }
+}

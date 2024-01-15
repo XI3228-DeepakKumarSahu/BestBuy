@@ -1,0 +1,140 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "imgSeg": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "https://pisces.bbystatic.com/prescaled/500/500/image2/BestBuy_US/images/products/5721/5721600_sd.jpg"
+            },
+            "lblListRating": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "4.7"
+            },
+            "lblOnSale": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblOnSalePrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": ""
+            },
+            "lblPrice": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "$448.8"
+            },
+            "lblStar": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "⭐"
+            },
+            "lblTitle": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "MacBook Air 13.3\" Laptop - Apple M1 chip - 8GB Memory - 256GB SSD (Latest Model) - Space Gray"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "00",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segProductList",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "dc354296480644ca9020f050908d77cb",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flexProductList",
+    "pf": "frmProductList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "e1bae901871248e8aa7e3445071cea90",
+    "rowcounter": 0,
+    "rowfocusskin": "s8c8d78ec47c40249a562334716016a3",
+    "rowskin": "s785a20bfaa04e6694616efa49f3ab38",
+    "rowtemplate": "PDF",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionHeaderTemplateId": null,
+    "sectionheaderskin": "s836d2f14f554ddca45ccaff9ce067d4",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "PDF": "PDF",
+        "flxRating": "flxRating",
+        "flxTitlePrice": "flxTitlePrice",
+        "imgSeg": "imgSeg",
+        "lblListRating": "lblListRating",
+        "lblOnSale": "lblOnSale",
+        "lblOnSalePrice": "lblOnSalePrice",
+        "lblPrice": "lblPrice",
+        "lblStar": "lblStar",
+        "lblTitle": "lblTitle"
+    },
+    "zindex": 1
+}

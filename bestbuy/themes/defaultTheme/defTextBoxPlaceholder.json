@@ -1,0 +1,16 @@
+{
+  "background_color": "ffffff00",
+  "bg_type": "one",
+  "border_color": "333333ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "999999ff",
+  "font_name": "iphoneSystem",
+  "font_size": 107,
+  "font_style": "normal",
+  "font_weight": "400",
+  "isDefaultSkin": true,
+  "kuid": "sc00de6c003647749b8d1b0f1d8d30ce",
+  "wType": "TextField"
+}

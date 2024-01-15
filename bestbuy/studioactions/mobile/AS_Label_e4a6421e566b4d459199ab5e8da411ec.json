@@ -1,0 +1,34 @@
+{
+    "AS_Label_e4a6421e566b4d459199ab5e8da411ec": {
+        "id": "AS_Label_e4a6421e566b4d459199ab5e8da411ec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmProduct",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i004e333eb964b64b7e68c801e546783"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__d81d2dea44cd4345b2363bb91a104249",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "readMore",
+            "display": "readMore",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

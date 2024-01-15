@@ -1,0 +1,51 @@
+{
+    "AS_Image_a40425b613ed4f07b2d34ece5bd83f92": {
+        "id": "AS_Image_a40425b613ed4f07b2d34ece5bd83f92",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "imagesrc"
+        }, {
+            "datatype": "boolean",
+            "name": "issuccess"
+        }],
+        "contextObj": {
+            "name": "frmCatagories",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cbdbd6a13c7641dbbce1084956944001"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ROTATE_ACTION_j405aa424357443f80f17ada49086a43",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmCatagories",
+            "widgetId": "imgMainLogo",
+            "itemKUID": "cbdbd6a13c7641dbbce1084956944001",
+            "widgetKUID": "b51489757ab84823a9c571b100d34ced",
+            "wType": "Image",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "360"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "2500"
+            },
+            "start": "Immediately",
+            "animationId": "ROTATE_ACTION_j405aa424357443f80f17ada49086a43",
+            "displayAnimationId": "ROTATE_ACTION_j405aa424357443f80f17ada49086a43",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.imgMainLogo"
+        }]
+    }
+}

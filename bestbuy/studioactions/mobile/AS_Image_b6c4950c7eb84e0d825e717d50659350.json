@@ -1,0 +1,87 @@
+{
+    "AS_Image_b6c4950c7eb84e0d825e717d50659350": {
+        "id": "AS_Image_b6c4950c7eb84e0d825e717d50659350",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmCatagories",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cbdbd6a13c7641dbbce1084956944001"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ADD_SNIPPET_f128795ce14f48ee889e153f45257725",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.flxSearch.isVisible=true;\nthis.view.tbSearchCat.isVisible=true;\nthis.view.flxTextBoxSearch.isVisible=true;\n",
+            "parentId": null
+        }, {
+            "id": "MOVE_ACTION_hdadd73bb9654300b8174b19843fe7e7",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmCatagories",
+            "widgetId": "lblPath",
+            "itemKUID": "cbdbd6a13c7641dbbce1084956944001",
+            "widgetKUID": "f35b4a74f0854bc1b19d7a1e86a64bb2",
+            "wType": "Label",
+            "animationObject": {
+                "top": "16%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION_fa1e56c165d94606a7207f1d226f01b8",
+            "animationId": "MOVE_ACTION_hdadd73bb9654300b8174b19843fe7e7",
+            "displayAnimationId": "MOVE_ACTION_hdadd73bb9654300b8174b19843fe7e7",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "widgetPath": "this.view.lblPath"
+        }, {
+            "id": "MOVE_ACTION_fa1e56c165d94606a7207f1d226f01b8",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmCatagories",
+            "widgetId": "flxCatagoriesSeg",
+            "itemKUID": "cbdbd6a13c7641dbbce1084956944001",
+            "widgetKUID": "c42ed61b9ad340978d778128dde40eef",
+            "wType": "FlexScrollContainer",
+            "animationObject": {
+                "top": "21%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "1000"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION_hdadd73bb9654300b8174b19843fe7e7",
+            "animationId": "MOVE_ACTION_fa1e56c165d94606a7207f1d226f01b8",
+            "displayAnimationId": "MOVE_ACTION_fa1e56c165d94606a7207f1d226f01b8",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "widgetPath": "this.view.flxCatagoriesSeg"
+        }]
+    }
+}

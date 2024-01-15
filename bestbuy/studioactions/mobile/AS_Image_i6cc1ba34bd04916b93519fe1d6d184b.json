@@ -1,0 +1,39 @@
+{
+    "AS_Image_i6cc1ba34bd04916b93519fe1d6d184b": {
+        "id": "AS_Image_i6cc1ba34bd04916b93519fe1d6d184b",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmProductList",
+            "type": "forms",
+            "platform": null,
+            "KUID": "b925bf6de4584425a33a2363cc59a932"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ef2af5f0e74d4afb89287e053edadb33",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCatagories",
+            "formKUID": "cbdbd6a13c7641dbbce1084956944001",
+            "projectName": "bestbuy",
+            "mappings": {},
+            "mappingsOrder": [],
+            "enableMappingEditor": true,
+            "package": "",
+            "isCustomInput": false
+        }, {
+            "id": "ADD_SNIPPET_a3cf796fde774bcd8ce572c80462987c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.lblHomeProductList.text=\"Category:\";"
+        }]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "AS_Image_cac523cff62f4d9898fb946e11704b69": {
+        "id": "AS_Image_cac523cff62f4d9898fb946e11704b69",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmProduct",
+            "type": "forms",
+            "platform": "",
+            "KUID": "i004e333eb964b64b7e68c801e546783"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__fb00b89e6e6a4e98900d7bfae2537887",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "backclick",
+            "display": "backclick",
+            "inputparams": [{
+                "name": "previousID"
+            }],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "313131ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "313131ff",
+  "font_name": "Roboto",
+  "font_size": 100,
+  "font_style": "normal",
+  "font_weight": "400",
+  "isDefaultSkin": true,
+  "kuid": "sd3e8aa891984676af852989a6ec8972",
+  "wType": "Label"
+}

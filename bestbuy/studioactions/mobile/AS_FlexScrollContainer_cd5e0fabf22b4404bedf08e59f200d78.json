@@ -1,0 +1,45 @@
+{
+    "AS_FlexScrollContainer_cd5e0fabf22b4404bedf08e59f200d78": {
+        "id": "AS_FlexScrollContainer_cd5e0fabf22b4404bedf08e59f200d78",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCatagories",
+            "type": "forms",
+            "platform": "",
+            "KUID": "cbdbd6a13c7641dbbce1084956944001"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "ROTATE_ACTION_cfbe0fde26864cb08c939e459c735866",
+            "type": "ROTATE_ACTION",
+            "itemType": "FORM",
+            "itemId": "frmCatagories",
+            "widgetId": "flxCatagoriesSeg",
+            "itemKUID": "cbdbd6a13c7641dbbce1084956944001",
+            "widgetKUID": "c42ed61b9ad340978d778128dde40eef",
+            "wType": "FlexScrollContainer",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "rotate": "360"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "3000"
+            },
+            "start": "Immediately",
+            "animationId": "ROTATE_ACTION_cfbe0fde26864cb08c939e459c735866",
+            "displayAnimationId": "ROTATE_ACTION_cfbe0fde26864cb08c939e459c735866",
+            "forkedPlatform": "all",
+            "widgetPath": "this.view.flxCatagoriesSeg"
+        }]
+    }
+}

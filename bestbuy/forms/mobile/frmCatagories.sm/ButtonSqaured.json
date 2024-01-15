@@ -1,0 +1,55 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "sdec9d86a2db4e3fbbe9fdf2089600ca",
+    "_text_": "Cancel",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s7a79ad8926d4a6fab933e802d751939",
+    "id": "ButtonSqaured",
+    "ide_onClick": "AS_Button_gcfaafe166d94d468267bb967abc6e38",
+    "info": null,
+    "isvisible": true,
+    "kuid": "jd21981529244ec18391d509853c11ef",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "paddinginpixel": false,
+    "parent": "SquaredButton",
+    "pf": "frmCatagories",
+    "wType": "Button",
+    "zindex": 1
+}
